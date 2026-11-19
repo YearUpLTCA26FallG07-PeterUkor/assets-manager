@@ -29,11 +29,15 @@ public class Asset {
         this.dateAcquired = dateAcquired;
     }
 
-    public BigDecimal getValue() {
+    public BigDecimal getOriginalCost() {
         return originalCost;
     }
 
     public void setOriginalCost(BigDecimal originalCost) {
         this.originalCost = originalCost;
+    }
+
+    public BigDecimal getValue() {
+        return originalCost;
     }
 }
